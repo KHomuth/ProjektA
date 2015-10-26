@@ -1,1 +1,7 @@
+An- und Abmelde Optionen.
+Link System zu beliebten Channels.
+Erstellung des Chats.
+freier Wechsel von Chaträumen ohne neues Laden der Seite.
+selbstverwaltete Designmöglichkeiten von Schrift, Chat und Seite.
 
+Rest folgt, möchte erstmal die Erstellung des Chats beenden und dann schauen, was man noch alles machen kann/könnte.
