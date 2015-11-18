@@ -1,0 +1,3 @@
+Ein grobes Gerüst der Website steht nun schon. Es ist simple gehalten und wird wohl im design noch etwas verändert.
+Der aktuelle Stand der Website soll nur die Mainpage darstellen.
+Aktuell wird an einem Login gearbeitet, welches in den nächsten tagen mithilfe des fertigen PHP-Codes vollendet wird.
