@@ -1,0 +1,10 @@
+Die Benutzeroberfläche soll nach unseren ersten Überlegungen ziemlich simpel aussehen.
+Auf der Startseite befinden sich nur das Logo der Seite sowie der Login-Bereich (auf der Seite soll sich wahrscheinlich mit
+der HAW Kennung angemeldet werden, daher kein Registrier Button).
+Nach der Anmeldung wird es oben eine Suchbox geben, in welcher man nach dem gesuchten Chat (oder Professor, oder Semester) suchen kann.
+Darunter ist man jedoch schon im Chat, in welchem man die Räume hat in welche man sich eingeschrieben hat und die der Professoren die
+gerade Sprechstunde haben(mit dem richtigen Channel in dem sich der Professor befindet und einem Wartezimmer, welches im Gegensatz
+zum Prof-Channel offen steht und nicht passwortgeschützt ist).
+Rechts sind die beliebtesten oder vorgeschlagenen Links zu neuen Channels.
+
+So der grobe Überblick.

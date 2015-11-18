@@ -1,0 +1,6 @@
+funktionierender Login, welcher Userdaten aus einem Array in der index.php zieht
+
+Arbeite gerade an einer Registrierung, welche Userdaten in einer Textdatei speichert und 
+bearbeite den Login dann so um, dass er sich die Daten dort rauszieht. 
+
+Danach wollen wir beiden das ganze zusammenfügen.
