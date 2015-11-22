@@ -8,42 +8,34 @@
         header("location: start.php"); //Person wird auf die Startseite weitergeleitet, falls eingeloggt.
     }
 
-	$submit = $_POST["submit"];		//Feld für das Anmelden
+	$submit = $_POST["submit"];	//Feld für das Anmelden
 	$username = $_POST["username"];	//Feld für den Benutzernamen
 	$password = $_POST["password"];	//Feld für das Passwort
-
-	$usernames = array(
-			"nenad",
-			"kevin"
-		);
-
-	$passwords = array(
-			$usernames[0] => "php",
-			$usernames[1] => "html"
-		);
-
-	$correctpw = $passwords[$username];
+	$md5password = md5($password);
+	$test = 0;
 
 	if(isset($submit)){
-		if ( empty($username) or empty($password) ){
+		if (empty($username) or empty($password)){
 			echo("Please fill in all input fields.");
 		}
 		else {
-			if (in_array($username, $usernames)){
-				if($password == $correctpw){
-					$_SESSION["username"] = $username;
-					echo "Welcome ".$username." <a href='start.php'> Member Page </a>";
-				}
-				else{
-					die("Password is incorrect.");
-				}
+			$userfile = fopen ("userdata.txt","r");
+			while (!feof($userfile)) {
+   				$line = fgets($userfile,500);
+   				$userdata = explode("|", $line);
+
+   				if ($userdata[0]==$username and $md5password==trim($userdata[1])) {
+      				$_SESSION["username"] = $username;
+        			echo "Login was succesful. <a href='start.php'>Member Page</a>";
+      			$test = 1;
+      			}
+   			} 
+
+   				if ($test==0) {
+   					echo "Login was unsuccesful. <a href='index.php'>Try again</a>";
+   				} 	
 			}
-			else {
-				die("Username doesn't exist");
-			}
-			exit();
 		}
-	}
 ?>
 
 <form action="index.php" method="POST">
