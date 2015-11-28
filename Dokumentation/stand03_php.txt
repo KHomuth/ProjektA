@@ -1,0 +1,4 @@
+Registirierung speichert Userdaten nun in einer Textdatei.
+Login liest diese erfolgreich aus.
+Als nächstes kommt die Einarbeitung des ganzen in HTML von Kevin.
+Ich fange demnächst mit dem Chat an.
