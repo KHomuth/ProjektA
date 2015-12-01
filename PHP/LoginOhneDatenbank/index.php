@@ -43,3 +43,26 @@
 	Password : <br /><input type="password" name="password"/><br />
 	<input type="submit" name="submit" value="Login">
 </form>
+
+<!--
+=== Feedback, alpers, dec 1 ===
+
+Dieser Kommentar bezieht sich auch auf die übrigen PHP-Skripte.
+
+Sehr gut. Bitte beachten Sie aber, dass Sie die PHP-Code-Fragmente entweder durch einen Aufruf 
+aus dem HTML-Code oder als <?php ?>-Container ins HTML einbinden sollten.
+
+Momentan arbeiten Sie beide noch in getrennten Verzeichnissen und dadurch lassen Sie sich den
+Vorteil der Arbeit mit Repositories entgehen.
+
+Für den Fall, dass das auf einem Missverständnis beruht: Zwar soll in jeder Gruppe jedes Team-
+Mitglied sich auf einen Bereich (HTML / PHP / MySQL) konzentrieren, aber das bedeutet nicht,
+dass jeder nur in den eigenen Dateien arbeiten darf. Ganz im Gegenteil: Beim Arbeiten im Team
+arbeiten Sie jeweils an den Stellen, wo der Code, den Sie erzeugen hingehört.
+
+Umgekehrt ist es deshalb so wichtig, beim git push einen klaren und kurzen Kommentar einzutragen.
+Denn nur so ist es später nachvollziehbar, wozu eine Änderung durchgeführt wurde. Und damit
+diese Kommentare nicht zu sehr ausufern ist es wiederum wichtig, dass Sie bei einzelnen commits nicht zu
+umfangreiche Änderungen durchführen.
+
+=== Feedback Ende ===

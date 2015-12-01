@@ -1,3 +1,7 @@
-Ein grobes Gerüst der Website steht nun schon. Es ist simple gehalten und wird wohl im design noch etwas verändert.
+﻿Ein grobes Gerüst der Website steht nun schon. Es ist simple gehalten und wird wohl im design noch etwas verändert.
 Der aktuelle Stand der Website soll nur die Mainpage darstellen.
 Aktuell wird an einem Login gearbeitet, welches in den nächsten tagen mithilfe des fertigen PHP-Codes vollendet wird.
+
+=== Feedback Alpers, dec 1 ===
+
+Gut. Vielleicht etwas knapp ausgefallen, aber das ist schon o.k. so. Auf jeden Fall lässt sich auf diese Art schnell überblicken, wo Sie zurzeit stehen und was als nächstes anliegt.
