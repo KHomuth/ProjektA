@@ -5,18 +5,18 @@ body {
   padding:0em;
 }
 
-header{
+header {
   display:block;
-  background:#A4A4A4;
+  background:#002362;
   text-align:center;
 }
 
-ul{
+ul {
   margin:0px;
   padding:0px;
 }
 
-li{
+li {
   list-style:square;
   font-family:Helvetica;
   font-weight:100;
@@ -27,30 +27,30 @@ li{
   margin:0.313em 0em 0.313em 0em;
 }
 
-img{
-  width: 980px;
-  max-width: 90%; 
-  height: auto;
+img {
+  width:1000px;
+  max-width:90%; 
+  height:auto;
 }
 
-a{
+a {
   text-decoration:none;
 }
 
-#navbar{
+#navbar {
   display:block;
   height:2.5em;
   background:#EFF2FB;
   text-align:center;
 }
 
-#navbar ul{
+#navbar ul {
   display:block;
 }
 
-#navbar ul li{
+#navbar ul li {
   display:inline;
-  margin: 0em 0.188em 0em 0.188em;
+  margin:0em 0.188em 0em 0.188em;
 }
 
 #navbar ul li a{
@@ -64,16 +64,146 @@ a{
 
 #navbar ul li a:hover{
   background:#DBD9D8;
-  border-bottom: 0.188em solid #002362; 
+  border-bottom:0.188em solid #002362; 
 }
 
 #main{
-display:block;
-width:96%;
-max-width:980px;
-margin:1.25em auto;
-padding:0em;
+  display:block;
+  width:96%;
+  max-width:980px;
+  margin:1.25em auto;
+  padding:0em;
 }
+
+/*login*/ 
+
+.overlay {
+  background-color:rgba(0,0,0,.9);
+  bottom:0;
+  display:flex;
+  justify-content:center;
+  left:0;
+  position:fixed;
+  top:0;
+  width:100%;
+}
+
+.login-wrapper {
+    background-color:#E6E6E6;
+    align-self:center;
+    display:block;
+    padding:6px;
+    width:450px;
+}
+
+.login-content {
+    background-color:rgb(230,230,230);
+    padding:24px;    
+    position:relative;
+}
+
+a.close {
+    background-color:rgba(0,35,98,0.25);
+    border-radius:0px;
+    color:rgb(255,255,255);
+    display:inline-block;
+    font-family:Helvetica;
+    font-size:0.8em;
+    text-align:center;
+    padding:0.2em 0.5em;
+    position:absolute;
+    top:1.25rem;
+    transition:all 400ms ease;
+    right:1.25rem;
+}
+    
+a.close:hover {
+    background-color:#002362;
+    cursor:pointer;
+}
+    
+
+#button-ok {
+	background-color:rgba(0,35,98,0.25);
+	color:#FFFFFF;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 1);
+  border:none;
+	display:inline-block;
+	font:Helvetica;
+	font-size:0.7em;
+	letter-spacing:1px;
+	line-height:140%;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+	text-transform:uppercase;
+  text-align:center;
+	}
+	
+#button-ok:hover {
+	background-color:#4B77BE;
+	color:rgb(255,255,255);
+	cursor:pointer;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+}
+		
+#button-ok:active {
+	box-shadow: 0 1px 1px rgba(0,0,0,0.15) inset;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+}
+
+/*LOGIN _ FORM*/
+form label {
+	display:block;
+	margin:6px 0;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="search"],
+form input[type="password"],
+form textarea {
+	background-color:rgba(102,102,102,0.25);
+  color:#FFFFFF;
+	border:1px solid rgb( 102, 102, 102 );
+	box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.08);
+	display:block;
+	font-size:14px;
+	margin:6px 0 12px 0;
+	padding:8px;	
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+	width:90%;	
+}
+	
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="number"]:focus,
+form input[type="search"]:focus,
+form input[type="password"]:focus,
+form textarea:focus,
+form select:focus { 
+	border-color:#002362;
+	color:#FFFFFF;
+}
+  
+::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #FFFFFF;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #FFFFFF;  
+}
+
+:-ms-input-placeholder {  
+  color: #FFFFFF;  
+}
+
+/*login*/
 
 footer{
   display:block;
@@ -99,6 +229,7 @@ footer ul li{
   padding:0em 0.625em 0em 0.625em;
 }
 
+/*Schriftgrößenanpassung für kleine Bildschirme*/
 @media screen and (max-width:600px){
   body{
     font-size:90%;
