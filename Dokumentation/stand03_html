@@ -1,0 +1,5 @@
+Das 'section'-Problem wurde bearbeitet und alle 'Section'-abschnitte wurden durch divs ersetzt.
+Das Login wurde komplett fertig gestellt und mit dem PHP-Code in eine Datei gepackt. 
+Die Seite zur Registreirung hat ebenfalls ihr HTML-Gerüst erhalten und muss noch mit dem PHP-Code versehen werden.
+Der nächste Schritt ist die Gestaltung der Main-Page auf der dann ebenfalls das Chatfenster zu sehen ist.
+Einige Probleme, wobei diese nicht wirklich als Probleme zu bezeichnen sind, gab es nur bei der Gestaltung des Login-Bereiches. Hier wurde ein externes Script verwendet. (Im Quellcode gekennzeichnet und mit Quelle versehen.)
