@@ -70,7 +70,7 @@
         <li><a href="register.php">Registrieren</a></li>
         <li><a id="loginLink">Login</a></li>
       </ul>
-    <div>
+    </div>
     <div id="main">
       <ul>
         <li>Sprechstunde bequem von zu Hause oder Unterwegs</li>
