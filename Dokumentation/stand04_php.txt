@@ -1,0 +1,12 @@
+Der Chat wurde jetzt auch fertig gestellt.
+Dieser importiert sich den Usernamen aus der Session, zeigt an wenn ein User joined und wenn er den Chat verlässt.
+Mein einziges Problem war hierbei der Schwierigkeitsgrad einen gut funktionierden Chat mit PHP zu erstellen.
+
+Die Lösung mit dem relativ neuen WebSocket-Protokoll hat mir am besten gefallen und
+war dann meiner Meinung nach die beste Lösung mit dem Chat umzugehen.
+Zudem habe ich hierzu gute Tutorien und Informationen aus dem Internet bekommen.
+
+Als nächstes folgt die Implementierung in den HTML Teil von Kevin.
+
+Ich werde versuchen, ein System hinzuzufügen in welchem man Gruppen beitreten kann.
+Und außerdem den Chat zu verschönern und zu verbessern.
