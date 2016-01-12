@@ -67,8 +67,8 @@
     </header>
     <div id="navbar">
       <ul>
-        <li><a href="register.html">Registrieren</a></li>
-        <li><a href="" id="loginLink">Login</a></li>
+        <li><a href="register.php">Registrieren</a></li>
+        <li><a id="loginLink">Login</a></li>
       </ul>
     <div>
     <div id="main">
@@ -81,7 +81,7 @@
       <div class="login-wrapper">
         <div class="login-content" id="loginTarget">
           <a class="close">x</a>
-          <form method="post" action="index.php">
+          <form method="post" action="main.php">
             <label for="username">
               <input type="text" name="username" id="username" placeholder="Username" />
             </label>
