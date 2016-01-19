@@ -80,5 +80,11 @@ Wenn es dagegen um umfangreiche Blöcke geht (wie hier und an anderer Stelle),
 dann macht es mehr Sinn, diesen Code in einer eigenen Datei auszulagern und ihn
 per include() ins HTML zu integrieren, ohne ihn dorthin zu kopieren.
 
+(Nachtrag)
+
+Ironischerweise entsprach das, was Sie Anfang Dezember entwickelt hatten bereits weitgehend dem,
+was gefordert war. Genau wie Ihr Teampartner haben Sie damit Ihren Anteil im Sinne des Leistungsnachweises
+verschlechtert.
+
 === Feedback Alpers, Ende ===
 -->
