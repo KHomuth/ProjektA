@@ -115,3 +115,19 @@ $(document).ready(function(){
 
 <!-- Großer Dank an Saran Chamling (http://www.sanwebe.com/2013/05/chat-using-websocket-php-socket), 
 ohne dessen Tutorium ich den Chat mit PHP nicht hinbekommen hätte-->
+
+<!--
+=== Feedback Alpers, Jan 19 ===
+
+Und genau hier liegt das Problem: Es ist mit den einfachen Mitteln, die Sie in der Veranstaltung kennen gelernt
+haben möglich, einen Chat zu realisieren. Der mag dann nicht so komfortabel sein, wie die Arbeit mit Sockets, aber
+was Sie hier gemacht haben ist genau das, was Sie nicht tun sollten: Sie haben eine fremde Lösung adaptiert, um
+eine selbstgestellte Aufgabe zu lösen.
+
+Deshalb hier nochmal das Ziel des Projekts: Es geht nicht darum, dass Ihr Projekt (perfekt) funktioniert, sondern
+darum, dass Sie mit beschränkten Mitteln als Teammitglied einen eigenen Anteil zum Projekt beitragen.
+
+Das Arbeiten mit Bibliotheken gehört dagegen zu den Methoden, die Sie später nutzen werden. 
+
+=== Feedback Alpers, Ende ===
+-->

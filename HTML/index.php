@@ -115,3 +115,43 @@ was sich dadurch zeigt, dass Sie jeweils unterschiedliche id-Werte vergeben.
 Es fehlt zurzeit auch noch die Integration des Controllers (also des PHP-Teils)
 in den HTML-Code. Indem Sie beide getrennte Verzeichnisse nutzen ignorieren Sie also
 genau den Vorteil, den die Arbeit mit einem Repository Ihnen bietet.
+-->
+
+<!--
+=== Feedback Alpes, Jan 19 ===
+
+Die Ironie ist die, dass Sie hier (bezüglich HTML) grundsätzlich eine gute Struktur entwickelt haben.
+Leider wenden Sie hier aber mit zwei Ausnahmen ausschließlich HTML5 an und damit genügt es nicht
+für den Leistungsnachweis, denn für den sollten Sie die Inhalte der Veranstaltung anwenden.
+Wie dort erklärt ist HTML5 selbst sehr übersichtlich und gut durchdacht, das Problem besteht vielmehr darin,
+dass diejenigen, die bislang in Version 4.01 entwickelt haben, sich an vielen Stellen zu viel Arbeit machen,
+indem sie Dinge programmieren, die in Version 5 überflüssig sind bzw. darin, dass die meisten Tutorials im
+Netz immer noch (fast) ausschließlich Version 4.01 vermitteln, selbst wenn ganz groß 5 drüber steht.
+
+Es gibt noch zwei Kritikpunkte am aktuellen Stand:
+
+- Zum einen ist es dann sinnvoll, PHP-Code in ein HTML-Dokument zu integrieren, wenn es sich dabei um ein oder zwei
+Zeilen handelt. Wenn es dagegen (wie in diesem Fall) um einen Programmteil geht, der den log-In steuert, sollte er in
+einer eigenständigen Datei ausgelagert sein.
+
+- Zum anderen (und das ist wesentlich wichtiger) sollten Sie (einzig und alleine in diesem Projekt)keinen fremden Code
+ verwenden. Und was steht da oben? Genau: Sie haben fremden Code verwendet.
+ Deshalb nochmals der Hinweis: Es geht bei diesem Projekt nicht darum, dass Ihre Anwendung toll aussieht;
+ es geht darum, dass Sie verstehen, dass es bereits mit wenigen Mitteln möglich ist, sehr umfangreiche Projekte zu
+ realisieren. Ohne diese Erfahrung werden Sie bei zukünftigen Projekten regelmäßig dazu neigen, fremde Lösungen
+ zu verwenden, weil "das halt jeder so macht". Das Ende vom Lied ist dann, dass Sie die zentrale Kompetenz jedes
+ Medieninformatikers nicht erwerben. Und die besteht darin, klar und systematisch vorzugehen und nur solche fremden
+ Lösungen zu nutzen, die genau dem Zweck dienen, den Sie wollen.
+ 
+ Insbesondere in diesem Fall zeigt sich, dass Sie mit solchen Fremdlösungen noch nicht gut umgehen, denn JQuery gehört
+ zu den Standardlösungen, um Elemente eines HTML-Dokuments dynamisch per JavaScript ändern zu lassen. Gleichzeitig 
+ nutzen Sie für das Projekt PHP, was für genau den gleichen Zweck eingesetzt wird.
+ 
+Wenn wir uns jetzt den aktuellen Stand des HTML-Teils ansehen, dann ergibt sich, dass es lediglich ein Gerüst in Version
+4.01 ist und abgesehen von zwei Formularen (hier und im HTML-Dokument register.php) praktisch nichts enthält.
+Damit wurde im HTML-Teil bislang kaum etwas umgesetzt; von den Möglichkeiten, die HTML in der Version 5 bietet, ist 
+es effektiv nichts. Das ist wirklich schade, denn damit ist hier nicht zu erkennen, dass Sie die Inhalte der
+Veranstaltung umgesetzt hätten.
+
+=== Feedback Alpers, Ende ===
+-->

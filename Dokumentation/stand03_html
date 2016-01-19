@@ -3,3 +3,13 @@ Das Login wurde komplett fertig gestellt und mit dem PHP-Code in eine Datei gepa
 Die Seite zur Registreirung hat ebenfalls ihr HTML-Gerüst erhalten und muss noch mit dem PHP-Code versehen werden.
 Der nächste Schritt ist die Gestaltung der Main-Page auf der dann ebenfalls das Chatfenster zu sehen ist.
 Einige Probleme, wobei diese nicht wirklich als Probleme zu bezeichnen sind, gab es nur bei der Gestaltung des Login-Bereiches. Hier wurde ein externes Script verwendet. (Im Quellcode gekennzeichnet und mit Quelle versehen.)
+
+=== Feedback Alpers, Jan 19 ===
+
+??? Warum haben Sie den HTML-Code noch mehr in Richtung HTML4.01 abgeändert?!
+
+Der Kommentar lautete, dass Sie die section-Container wie div-Container in HTML4.01 einsetzen.
+Und Ihre Lösung besteht darin, dass Sie div-Container wie in HTML4.01 einsetzen...
+
+Aber Sie haben hier weiterhin eine gute Dokumentation erstellt: Knapp und übersichtlich, sodass es
+leicht ist, sich in den aktuellen Stand des Projekts einzuarbeiten.

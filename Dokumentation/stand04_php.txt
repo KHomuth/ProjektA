@@ -10,3 +10,12 @@ Als nächstes folgt die Implementierung in den HTML Teil von Kevin.
 
 Ich werde versuchen, ein System hinzuzufügen in welchem man Gruppen beitreten kann.
 Und außerdem den Chat zu verschönern und zu verbessern.
+
+=== Feedback Alpers, Jan 19 ===
+
+Bitte lesen Sie sich mein Feedback in chat.php durch und versuchen Sie entsprechend eine
+eigene Lösung in PHP mit den einfachen Mitteln zu realisieren, die Sie hier kennen gelernt
+haben. Wie gesagt: Es geht nicht darum, dass das Projekt funktioniert; es geht darum,
+dass Sie einen eigenen Anteil am Projekt haben.
+
+=== Feedback Alpers, Ende ===

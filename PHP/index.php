@@ -66,3 +66,19 @@ diese Kommentare nicht zu sehr ausufern ist es wiederum wichtig, dass Sie bei ei
 umfangreiche Änderungen durchführen.
 
 === Feedback Ende ===
+-->
+
+<!--
+=== Feedback Alpers, Jan 19 ===
+
+Wenn ich es richtig sehe, haben Sie meinen Hinweis bezüglich der Zusammenarbeit missverstanden:
+
+Wenn es um einige wenige Codezeilen PHP (besser nur bei ein oder zwei Zeilen) geht,
+dann macht es häufig Sinn, diese Zeilen direkt im HTML-Code einzubinden.
+
+Wenn es dagegen um umfangreiche Blöcke geht (wie hier und an anderer Stelle),
+dann macht es mehr Sinn, diesen Code in einer eigenen Datei auszulagern und ihn
+per include() ins HTML zu integrieren, ohne ihn dorthin zu kopieren.
+
+=== Feedback Alpers, Ende ===
+-->
