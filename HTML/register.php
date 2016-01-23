@@ -13,13 +13,13 @@
     
     <nav>
       <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a id="loginLink">Login</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.php">Login</a></li>
       </ul>
     </nav>
  
     <main>
-      <form method="post" action="">
+      <form method="post" action="register.php">
             <label for="username">
               <input type="text" name="username" id="username" placeholder="Username (Bitte Vor- und Nachname in der Form: VornameNachname)" />
             </label>
