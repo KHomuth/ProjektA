@@ -37,23 +37,23 @@ a {
   text-decoration:none;
 }
 
-#navbar {
+nav {
   display:block;
   height:2.5em;
   background:#EFF2FB;
   text-align:center;
 }
 
-#navbar ul {
+nav ul {
   display:block;
 }
 
-#navbar ul li {
+nav ul li {
   display:inline;
   margin:0em 0.188em 0em 0.188em;
 }
 
-#navbar ul li a{
+nav ul li a{
   color:#002362;
   font-size:1.25em;
   line-height:2.5em;
@@ -62,12 +62,12 @@ a {
   -webkit-transition:background 0.2S;
 }
 
-#navbar ul li a:hover{
+nav ul li a:hover{
   background:#DBD9D8;
   border-bottom:0.188em solid #002362; 
 }
 
-#main{
+main{
   display:block;
   width:96%;
   max-width:980px;
@@ -75,84 +75,6 @@ a {
   padding:0em;
 }
 
-/*login*/ 
-
-.overlay {
-  background-color:rgba(0,0,0,.9);
-  bottom:0;
-  display:flex;
-  justify-content:center;
-  left:0;
-  position:fixed;
-  top:0;
-  width:100%;
-}
-
-.login-wrapper {
-    background-color:#E6E6E6;
-    align-self:center;
-    display:block;
-    padding:6px;
-    width:450px;
-}
-
-.login-content {
-    background-color:rgb(230,230,230);
-    padding:24px;    
-    position:relative;
-}
-
-a.close {
-    background-color:rgba(0,35,98,0.25);
-    border-radius:0px;
-    color:rgb(255,255,255);
-    display:inline-block;
-    font-family:Helvetica;
-    font-size:0.8em;
-    text-align:center;
-    padding:0.2em 0.5em;
-    position:absolute;
-    top:1.25rem;
-    transition:all 400ms ease;
-    right:1.25rem;
-}
-    
-a.close:hover {
-    background-color:#002362;
-    cursor:pointer;
-}
-    
-
-#button-ok {
-	background-color:rgba(0,35,98,0.25);
-	color:#FFFFFF;
-	text-shadow: 0 1px 1px rgba(255, 255, 255, 1);
-  border:none;
-	display:inline-block;
-	font:Helvetica;
-	font-size:0.7em;
-	letter-spacing:1px;
-	line-height:140%;
-	padding:10px 20px;
-	text-decoration:none;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, 1);
-	text-transform:uppercase;
-  text-align:center;
-	}
-	
-#button-ok:hover {
-	background-color:#4B77BE;
-	color:rgb(255,255,255);
-	cursor:pointer;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, 1);
-}
-		
-#button-ok:active {
-	box-shadow: 0 1px 1px rgba(0,0,0,0.15) inset;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, 1);
-}
-
-/*LOGIN _ FORM*/
 form label {
 	display:block;
 	margin:6px 0;
