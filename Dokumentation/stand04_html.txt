@@ -1,0 +1,4 @@
+Leider gab es ein Missverständnis meinerseits. Alle HTML-Dateien wurden überarbeitet und sollten nun vollständig in HTML5 vorliegen.
+Der Fremdcode wurde entfernt und eine extra Datei für das Login angelegt. 
+Die CSS-Datei wurde angepasst.
+Eine Main-Datei wurde erstellt und muss noch überarbeitet werde, da nur der HTML-Code aus der PHP übernommen wurde. Ebenfalls wurde der gesamte PHP-Code aus den HTML-Dateien entfernt und per <include> verknüpft.
