@@ -5,7 +5,7 @@
 
 	if( isset($_SESSION["username"]) )
     {
-        header("location: start.php"); //Person wird auf die Startseite weitergeleitet, falls eingeloggt.
+        header("location: main.php"); //Person wird auf die Startseite weitergeleitet, falls eingeloggt.
     }
 
 	$submit = $_POST["submit"];	//Feld für das Anmelden
@@ -26,23 +26,17 @@
 
    				if ($userdata[0]==$username and $md5password==trim($userdata[1])) {
       				$_SESSION["username"] = $username;
-        			echo "Login was succesful. <a href='start.php'>Member Page</a>";
+        			header("location: main.php");
       			$test = 1;
       			}
    			} 
 
    				if ($test==0) {
-   					echo "Login was unsuccesful. <a href='index.php'>Try again</a>";
+   					echo "Login was unsuccesful.";
    				} 	
 			}
 		}
 ?>
-
-<form action="index.php" method="POST">
-	Username : <br /><input type="text" name="username"/><br />
-	Password : <br /><input type="password" name="password"/><br />
-	<input type="submit" name="submit" value="Login">
-</form>
 
 <!--
 === Feedback, alpers, dec 1 ===
