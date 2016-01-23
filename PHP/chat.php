@@ -1,38 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset='UTF-8' />
-<style type="text/css">
-<!--
-.chat_wrapper {
-	width: 500px;
-	margin-right: auto;
-	margin-left: auto;
-	background: #C0C0C0;
-	border: 1px solid #999999;
-	padding: 0px;
-	font: 12px 'verdana';
-}
-.chat_wrapper .message_box {
-	background: #FFFFFF;
-	height: 200px;
-	overflow: auto;
-	padding: 10px;
-	border: 1px solid #999999;
-}
-.chat_wrapper .panel input{
-	padding: 2px 2px 2px 5px;
-}
-.system_msg{color: #BDBDBD;font-style: italic;}
-.user_name{font-weight:bold;}
-.user_message{color: #000000;}
--->
-</style>
-</head>
-<body>
-
 <?php
-session_start();
 error_reporting(E_ALL ^ E_NOTICE);
 
 $user = $_SESSION["username"];
@@ -101,17 +67,6 @@ $(document).ready(function(){
 		header("index.php"); 
 	}
 ?>
-
-<div class="chat_wrapper">
-<div class="message_box" id="message_box"></div>
-<div class="panel">
-<input type="text" name="message" id="message" placeholder="Message" maxlength="80" style="width:87%" />
-<button id="send-btn">Send</button>
-</div>
-</div>
-
-</body>
-</html>
 
 <!-- Großer Dank an Saran Chamling (http://www.sanwebe.com/2013/05/chat-using-websocket-php-socket), 
 ohne dessen Tutorium ich den Chat mit PHP nicht hinbekommen hätte-->
