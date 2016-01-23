@@ -37,23 +37,23 @@ a {
   text-decoration:none;
 }
 
-#navbar {
+nav {
   display:block;
   height:2.5em;
   background:#EFF2FB;
   text-align:center;
 }
 
-#navbar ul {
+nav ul {
   display:block;
 }
 
-#navbar ul li {
+nav ul li {
   display:inline;
   margin:0em 0.188em 0em 0.188em;
 }
 
-#navbar ul li a{
+nav ul li a{
   color:#002362;
   font-size:1.25em;
   line-height:2.5em;
@@ -62,12 +62,12 @@ a {
   -webkit-transition:background 0.2S;
 }
 
-#navbar ul li a:hover{
+nav ul li a:hover{
   background:#DBD9D8;
   border-bottom:0.188em solid #002362; 
 }
 
-#main{
+main{
   display:block;
   width:96%;
   max-width:980px;
@@ -241,3 +241,27 @@ footer ul li{
     font-size:86%;
   }
 }
+
+.chat_wrapper {
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #C0C0C0;
+	border: 1px solid #999999;
+	padding: 0px;
+	font: 12px 'verdana';
+}
+.chat_wrapper .message_box {
+	background: #FFFFFF;
+	height: 200px;
+	overflow: auto;
+	padding: 10px;
+	border: 1px solid #999999;
+}
+.chat_wrapper .panel input{
+	padding: 2px 2px 2px 5px;
+}
+.system_msg{color: #BDBDBD;font-style: italic;}
+.user_name{font-weight:bold;}
+.user_message{color: #000000;}
+
